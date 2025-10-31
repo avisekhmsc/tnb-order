@@ -53,7 +53,7 @@ $(document).ready(function(){
      });
      let menuData = [];
      let dataList = [];
-     let base_url = "http://127.0.0.1:8000/";
+     let base_url = "http://147.79.67.233:9119/";
      function fetchMenu(target){
       $.ajax({
         type: "GET",
