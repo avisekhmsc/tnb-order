@@ -1,0 +1,39 @@
+[30-Aug-2023 13:12:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/hisab165/public_html/tnborders.com/tnbcoupon/functions.php:62
+Stack trace:
+#0 /home/hisab165/public_html/tnborders.com/tnbcoupon/functions.php(62): mysqli->__construct('localhost', 'root', '', 'coupon_db')
+#1 /home/hisab165/public_html/tnborders.com/tnbcoupon/config.php(15): connectDB()
+#2 /home/hisab165/public_html/tnborders.com/tnbcoupon/login_check.php(3): require_once('/home/hisab165/...')
+#3 {main}
+  thrown in /home/hisab165/public_html/tnborders.com/tnbcoupon/functions.php on line 62
+[30-Aug-2023 13:14:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/hisab165/public_html/tnborders.com/tnbcoupon/functions.php:62
+Stack trace:
+#0 /home/hisab165/public_html/tnborders.com/tnbcoupon/functions.php(62): mysqli->__construct('localhost', 'root', '', 'hisab165_coupon...')
+#1 /home/hisab165/public_html/tnborders.com/tnbcoupon/config.php(15): connectDB()
+#2 /home/hisab165/public_html/tnborders.com/tnbcoupon/login_check.php(3): require_once('/home/hisab165/...')
+#3 {main}
+  thrown in /home/hisab165/public_html/tnborders.com/tnbcoupon/functions.php on line 62
+[30-Aug-2023 13:14:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/hisab165/public_html/tnborders.com/tnbcoupon/functions.php:62
+Stack trace:
+#0 /home/hisab165/public_html/tnborders.com/tnbcoupon/functions.php(62): mysqli->__construct('localhost', 'root', '', 'hisab165_coupon...')
+#1 /home/hisab165/public_html/tnborders.com/tnbcoupon/config.php(15): connectDB()
+#2 /home/hisab165/public_html/tnborders.com/tnbcoupon/login_check.php(3): require_once('/home/hisab165/...')
+#3 {main}
+  thrown in /home/hisab165/public_html/tnborders.com/tnbcoupon/functions.php on line 62
+[30-Aug-2023 13:15:43 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hisab165/public_html/tnborders.com/tnbcoupon/login_check.php on line 38
+[30-Aug-2023 13:15:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hisab165/public_html/tnborders.com/tnbcoupon/login_check.php:32) in /home/hisab165/public_html/tnborders.com/tnbcoupon/login_check.php on line 42
+[30-Aug-2023 13:16:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hisab165/public_html/tnborders.com/tnbcoupon/login_check.php on line 36
+[30-Aug-2023 13:16:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hisab165/public_html/tnborders.com/tnbcoupon/login_check.php on line 44
+[30-Aug-2023 13:16:13 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hisab165/public_html/tnborders.com/tnbcoupon/login_check.php on line 38
+[30-Aug-2023 13:16:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hisab165/public_html/tnborders.com/tnbcoupon/login_check.php:32) in /home/hisab165/public_html/tnborders.com/tnbcoupon/login_check.php on line 42
+[30-Aug-2023 13:23:05 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hisab165/public_html/tnborders.com/tnbcoupon/login_check.php on line 38
+[30-Aug-2023 13:23:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hisab165/public_html/tnborders.com/tnbcoupon/login_check.php:32) in /home/hisab165/public_html/tnborders.com/tnbcoupon/login_check.php on line 42
+[30-Aug-2023 13:30:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hisab165/public_html/tnborders.com/tnbcoupon/login_check.php on line 36
+[30-Aug-2023 13:30:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hisab165/public_html/tnborders.com/tnbcoupon/login_check.php on line 44
+[30-Aug-2023 13:31:18 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hisab165/public_html/tnborders.com/tnbcoupon/login_check.php on line 38
+[30-Aug-2023 13:31:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hisab165/public_html/tnborders.com/tnbcoupon/login_check.php:32) in /home/hisab165/public_html/tnborders.com/tnbcoupon/login_check.php on line 42
+[30-Aug-2023 13:31:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hisab165/public_html/tnborders.com/tnbcoupon/login_check.php on line 36
+[30-Aug-2023 13:31:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hisab165/public_html/tnborders.com/tnbcoupon/login_check.php on line 44
+[30-Aug-2023 13:50:10 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hisab165/public_html/tnborders.com/tnbcoupon/login_check.php on line 38
+[30-Aug-2023 13:50:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hisab165/public_html/tnborders.com/tnbcoupon/login_check.php:32) in /home/hisab165/public_html/tnborders.com/tnbcoupon/login_check.php on line 42
+[30-Aug-2023 09:52:33] PHP Parse error:  syntax error, unexpected '[' in /home/hisab165/public_html/tnborders.com/tnbcoupon/login_check.php on line 10
+[30-Aug-2023 09:52:38] PHP Parse error:  syntax error, unexpected '[' in /home/hisab165/public_html/tnborders.com/tnbcoupon/login_check.php on line 10
